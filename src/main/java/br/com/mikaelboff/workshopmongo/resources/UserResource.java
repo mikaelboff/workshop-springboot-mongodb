@@ -22,7 +22,7 @@ import br.com.mikaelboff.workshopmongo.dto.UserDTO;
 import br.com.mikaelboff.workshopmongo.services.UserService;
 
 @RestController
-@RequestMapping(value = "users")
+@RequestMapping(value = "/users")
 public class UserResource {
 
 	@Autowired
